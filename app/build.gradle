@@ -23,6 +23,9 @@ android {
 
     buildTypes {
 
+        //Refresh Token
+        // 1//03rvkpg7hPV7vCgYIARAAGAMSNwF-L9IrXLjLIMDwX0cfM0is8SSNDwevq9-9XFO6gYKUndZZRsabiXybODTD-e0Wozc9Yjx_Rhs
+
         debug {
             firebaseAppDistribution {
                 groups = "QA"
