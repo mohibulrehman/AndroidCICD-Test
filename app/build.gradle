@@ -41,14 +41,14 @@ android {
     signingConfigs {
 
         debug {
-            keyAlias 'wishpool'
+            keyAlias 'key0'
             keyPassword 'wishpoool'
             storeFile file('../keys/key.jks')
             storePassword 'wishpoool'
         }
 
         release {
-            keyAlias 'wishpool'
+            keyAlias 'key0'
             keyPassword 'wishpoool'
             storeFile file('../keys/key.jks')
             storePassword 'wishpoool'
