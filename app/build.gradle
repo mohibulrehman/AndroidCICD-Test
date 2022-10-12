@@ -37,6 +37,23 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    signingConfigs {
+
+        debug {
+            keyAlias 'wishpool'
+            keyPassword 'wishpoool'
+            storeFile file('../keys/key.jks')
+            storePassword 'wishpoool'
+        }
+
+        release {
+            keyAlias 'wishpool'
+            keyPassword 'wishpoool'
+            storeFile file('../keys/key.jks')
+            storePassword 'wishpoool'
+        }
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
