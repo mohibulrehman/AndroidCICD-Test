@@ -89,4 +89,23 @@ object Libs {
             const val koin = "io.insert-koin:koin-android:$version"
         }
     }
+
+    //firebase sdks
+    object FireBase{
+        const val crashlytics = "com.google.firebase:firebase-crashlytics:18.3.0"
+        const val analytics = "com.google.firebase:firebase-analytics:21.2.0"
+
+        const val classPathCrashlytics = "com.google.firebase:firebase-crashlytics-gradle:2.9.2"
+
+
+    }
+
+    //JUnit Test Libs
+    object JUnit{
+
+        const val base = "junit:junit:4.13.2"
+        const val extJUnit = "androidx.test.ext:junit:1.1.3"
+       const val  espressoCore = "androidx.test.espresso:espresso-core:3.4.0"
+
+    }
 }

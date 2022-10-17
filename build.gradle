@@ -3,9 +3,9 @@ import com.androidcicd_test.Libs
 buildscript {
     dependencies {
         classpath(Libs.androidGradlePlugin)
+        classpath(Libs.FireBase.classPathCrashlytics)
         classpath 'com.google.gms:google-services:4.3.14'
         classpath 'com.google.firebase:firebase-appdistribution-gradle:3.0.3'
-        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.2'
 
     }
 }
